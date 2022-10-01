@@ -1,4 +1,10 @@
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=NorskNoobing&count_private=true&theme=dracula)
+
+
+<p>&nbsp;<img align="left" src="https://github-readme-stats.vercel.app/api?username=norsknoobing&show_icons=true&theme=dark&locale=en&count_private=true&hide=stars,prs" alt="norsknoobing" /></p>
+
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=norsknoobing&show_icons=true&theme=dark&locale=en&layout=default" alt="norsknoobing" /></p>
+
+<p><img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=norsknoobing&theme=dark" alt="norsknoobing" /></p>
 <!--
 **NorskNoobing/NorskNoobing** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
