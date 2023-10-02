@@ -6,6 +6,8 @@
   <a href="https://blog.athulcyriac.in">Website</a> 
   • -->
 
+  
+<b>Todoist stats:</b>
   <!-- TODO-IST:START -->
 🏆  8,208 Karma Points           
 🌸  Completed 0 tasks today           
