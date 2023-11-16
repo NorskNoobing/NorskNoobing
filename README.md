@@ -1,4 +1,4 @@
-![](https://komarev.com/ghpvc/?username=NorskNoobing&style=flat-square) <!-- PSGallery-Downloads:START -->[![](https://img.shields.io/badge/PSGallery%20Downloads-1,013-blue?style=flat-square&logo=powershell)](https://www.powershellgallery.com/profiles/NorskNoobing)<!-- PSGallery-Downloads:END -->
+![](https://komarev.com/ghpvc/?username=NorskNoobing&style=flat-square) <!-- PSGallery-Downloads:START -->[![](https://img.shields.io/badge/PSGallery%20Downloads-1,027-blue?style=flat-square&logo=powershell)](https://www.powershellgallery.com/profiles/NorskNoobing)<!-- PSGallery-Downloads:END -->
 <h2 align="center">👋 Hello! I'm Daniel.</h2>
 <p align="center">
   <!--
