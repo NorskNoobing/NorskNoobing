@@ -21,3 +21,4 @@ jobs:
             git config --global user.email 'NorskNoobing@users.noreply.github.com'
             git commit -am "Update psgallery downloads"
             git push
+          continue-on-error: true
