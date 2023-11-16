@@ -1,0 +1,23 @@
+name: Get-TotalDownloads
+on:
+  workflow_dispatch:
+  schedule:
+    # Runs every hour
+    - cron: "0 * * * *"
+
+jobs:
+    build:
+      name: Get-TotalDownloads
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v3
+        - name: Get-TotalDownloads
+          run: .\Get-TotalDownloads.ps1
+          shell: pwsh
+        - name: Commit
+          run: |
+            git config --global user.name 'NorskNoobing'
+            git config --global user.email 'NorskNoobing@users.noreply.github.com'
+            git commit -am "Update psgallery downloads"
+            git push
