@@ -3,6 +3,8 @@ param (
     [string]$LinkMatchRegex = "https:\/\/img\.shields\.io\/badge\/PSGallery%20Total%20Downloads-[0-9]*"
 )
 
+Install-Module "PowerHTML" -Force
+
 #Scrape PSGallery profile for the "Total Downloads" property
 $PsgalleryProfile = ((Invoke-WebRequest -Uri "https://www.powershellgallery.com/profiles/$PsgalleryUsername" | ConvertFrom-Html).InnerText -split '\r?\n').Trim()
 $TotalDownloadsIndex = $PsgalleryProfile.IndexOf("Total downloads of packages")
