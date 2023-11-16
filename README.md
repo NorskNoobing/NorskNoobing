@@ -1,4 +1,4 @@
-![](https://komarev.com/ghpvc/?username=NorskNoobing&style=flat-square)![](https://img.shields.io/badge/PSGallery%20Total%20Downloads-0-blue)
+![](https://komarev.com/ghpvc/?username=NorskNoobing&style=flat-square)![](https://img.shields.io/badge/PSGallery%20Total%20Downloads-995-blue)
 
 <h2 align="center">👋 Hello! I'm Daniel.</h2>
 <p align="center">
