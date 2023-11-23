@@ -1,5 +1,6 @@
 param (
-    [string]$PSGalleryLink = "https://www.powershellgallery.com/profiles/NorskNoobing"
+    [string]$PSGalleryLink = "https://www.powershellgallery.com/profiles/NorskNoobing",
+    [string][ValidateSet("md","html")]$Language = "html"
 )
 
 #Returns bool if "README.md" contains badge field or not
@@ -16,12 +17,26 @@ $PsgalleryProfile = ((Invoke-WebRequest -Uri $PSGalleryLink | ConvertFrom-Html).
 $TotalDownloadsIndex = $PsgalleryProfile.IndexOf("Total downloads of packages")
 $PsgalleryTotalDownloads = $PsgalleryProfile[$TotalDownloadsIndex-2]
 
-#See LinkStr options here https://shields.io/badges/static-badge
-$LinkStr = "https://img.shields.io/badge/PSGallery%20Downloads-$PsgalleryTotalDownloads-blue?style=flat-square&logo=powershell"
+#See ShieldLinkStr options here https://shields.io/badges/static-badge
+$ShieldLinkStr = "https://img.shields.io/badge/PSGallery%20Downloads-$PsgalleryTotalDownloads-blue?style=flat-square&logo=powershell"
+
+#Check README language parameter
+switch ($Language) {
+    md {
+        #Use md syntax
+        $TemplateStr = "<!-- PSGallery-Downloads:START -->[![]($ShieldLinkStr)]($PSGalleryLink)<!-- PSGallery-Downloads:END -->"
+    }
+    html {
+        #Use html syntax
+        $TemplateStr = @"
+<a href="$PSGalleryLink">
+    <img src="$ShieldLinkStr">
+</a>
+"@
+    }
+}
 
 #Update badge
 (Get-Content "README.md") -Replace @"
 <!-- PSGallery-Downloads:START -->.*<!-- PSGallery-Downloads:END -->
-"@,@"
-<!-- PSGallery-Downloads:START -->[![]($LinkStr)]($PSGalleryLink)<!-- PSGallery-Downloads:END -->
-"@ | Out-File "README.md"
+"@,$TemplateStr | Out-File "README.md"

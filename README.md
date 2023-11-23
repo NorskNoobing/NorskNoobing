@@ -1,21 +1,33 @@
-![](https://komarev.com/ghpvc/?username=NorskNoobing&style=flat-square) <!-- PSGallery-Downloads:START -->[![](https://img.shields.io/badge/PSGallery%20Downloads-1,079-blue?style=flat-square&logo=powershell)](https://www.powershellgallery.com/profiles/NorskNoobing)<!-- PSGallery-Downloads:END -->
-<h2 align="center">👋 Hello! I'm Daniel.</h2>
 <p align="center">
-  <!--
-  <a href="https://blog.athulcyriac.in">Website</a> 
-  • -->
-
-![Metrics](https://metrics.lecoq.io/NorskNoobing?template=classic&repositories.forks=true&languages=1&gists=1&notable=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&languages=false&languages.limit=8&languages.threshold=0%25&languages.other=false&languages.colors=github&languages.sections=most-used&languages.details=percentage&languages.indepth=false&languages.analysis.timeout=15&languages.analysis.timeout.repositories=7.5&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&notable=false&notable.from=organization&notable.repositories=false&notable.indepth=false&notable.types=commit&notable.self=false&gists=false&config.timezone=Europe%2FOslo&config.display=large)
-  
-<b>Todoist stats:</b>
-  <!-- TODO-IST:START -->
-🏆  9,127 Karma Points           
-🌸  Completed 0 tasks today           
-✅  Completed 565 tasks so far           
-⏳  Longest streak is 5 days
-<!-- TODO-IST:END -->
+  <img src="https://komarev.com/ghpvc/?username=NorskNoobing&style=flat-square">
+  <!-- PSGallery-Downloads:START --><!-- PSGallery-Downloads:END -->
+  <br><br>
+  <img width="" src="https://readme-typing-svg.demolab.com?font=Righteous&size=50&pause=1000&color=FFFFFF&center=true&vCenter=true&repeat=false&random=false&width=750&height=100&lines=Hello%F0%9F%91%8B+my+name+is+Daniel."/>
+  <br>
+  <a href="https://hub.docker.com/u/norsknoobing">
+    <img height="40px" src="Images/Static/docker.png" title="Docker"></a>
+  <a href="https://discord.com/users/136478125604339712">
+    <img height="40px" src="Images/Static/discord.png" title="Discord"></a>
+  <br><br><br>
+  <img height="45px" src="https://readme-typing-svg.demolab.com?font=Righteous&size=40&pause=1000&color=FFFFFF&center=true&vCenter=true&repeat=false&random=false&width=260&height=45&lines=Todoist+Stats">
+  <img height="50px" src="Images/Static/todo.png">
+  <hr>
 </p>
-
-<h2 align="center">GitHub Stats🐙</h2>
-<p><img align="left" src="https://github-readme-stats.vercel.app/api?username=norsknoobing&show_icons=true&theme=dracula&locale=en&count_private=true&rank_icon=github" alt="norsknoobing" /></p>
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=norsknoobing&show_icons=true&theme=dracula&locale=en&layout=compact" alt="norsknoobing" /></p>
+<p align="center">
+  <!-- TODO-IST:START -->
+  🏆  9,127 Karma Points           
+  🌸  Completed 0 tasks today           
+  ✅  Completed 565 tasks so far           
+  ⏳  Longest streak is 5 days
+  <!-- TODO-IST:END -->
+  <br><br><br><br><br>
+  <img height="45px" src="https://readme-typing-svg.demolab.com?font=Righteous&size=40&pause=1000&color=FFFFFF&center=true&vCenter=true&repeat=false&random=false&width=260&height=45&lines=Github+Stats">
+  <img height="40px" src="Images/Static/stats.png">
+  <hr>
+</p>
+<p align="center">
+  <img src="Images/Dynamic/base.svg">
+  <img src="Images/Dynamic/languages.svg">
+  <img src="Images/Dynamic/contributions.svg">
+  <img src="Images/Dynamic/gists.svg">
+</p>
