@@ -24,7 +24,7 @@ $ShieldLinkStr = "https://img.shields.io/badge/PSGallery%20Downloads-$PsgalleryT
 switch ($Language) {
     md {
         #Use md syntax
-        $TemplateStr = "<!-- PSGallery-Downloads:START -->[![]($ShieldLinkStr)]($PSGalleryLink)<!-- PSGallery-Downloads:END -->"
+        $TemplateStr = "[![]($ShieldLinkStr)]($PSGalleryLink)"
     }
     html {
         #Use html syntax
@@ -39,4 +39,4 @@ switch ($Language) {
 #Update badge
 (Get-Content "README.md") -Replace @"
 <!-- PSGallery-Downloads:START -->.*<!-- PSGallery-Downloads:END -->
-"@,$TemplateStr | Out-File "README.md"
+"@,"<!-- PSGallery-Downloads:START -->$TemplateStr<!-- PSGallery-Downloads:END -->" | Out-File "README.md"
