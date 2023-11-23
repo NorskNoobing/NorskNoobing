@@ -6,6 +6,8 @@
   <br><br>
   <img width="" src="https://readme-typing-svg.demolab.com?font=Righteous&size=50&color=FFFFFF&center=true&vCenter=true&repeat=false&random=false&width=750&height=100&lines=Hello%F0%9F%91%8B+my+name+is+Daniel."/>
   <br>
+  <a href="https://www.powershellgallery.com/profiles/NorskNoobing">
+    <img height="40px" src="Images/Static/powershell.png" title="PowerShell Gallery"></a>
   <a href="https://hub.docker.com/u/norsknoobing">
     <img height="40px" src="Images/Static/docker.png" title="Docker"></a>
   <a href="https://discord.com/users/136478125604339712">
