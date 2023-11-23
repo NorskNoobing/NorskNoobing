@@ -46,7 +46,7 @@ jobs:
           committer_token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_notable: yes
-          plugin_notable_skipped: "@Exp-Communicate-Using-Markdown-Cohort-1, @Exp-Intro-to-GitHub-Flow-Cohort-1"
+          plugin_notable_skipped: \@Exp-Communicate-Using-Markdown-Cohort-1, \@Exp-Intro-to-GitHub-Flow-Cohort-1
       #gists - https://github.com/lowlighter/metrics/blob/master/source/plugins/gists/README.md
       - name: gists
         uses: lowlighter/metrics@latest
