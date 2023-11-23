@@ -56,3 +56,13 @@ jobs:
           committer_token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_gists: yes
+      #followup - https://github.com/lowlighter/metrics/blob/master/source/plugins/followup/README.md
+      - name: followup
+        uses: lowlighter/metrics@latest
+        with:
+          filename: Images/Dynamic/followup.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_followup: yes
+          plugin_followup_sections: user
