@@ -32,5 +32,6 @@
 <p align="center">
   <img width="100%" src="Images/Dynamic/base.svg">
   <img width="50%" src="Images/Dynamic/languages.svg"><img width="50%" src="Images/Dynamic/followup.svg">
-  <img width="50%" src="Images/Dynamic/gists.svg"><img width="50%" src="Images/Dynamic/contributions.svg">
+  <a href="https://gist.github.com/NorskNoobing">
+    <img width="50%" src="Images/Dynamic/gists.svg"></a><img width="50%" src="Images/Dynamic/contributions.svg">
 </p>
