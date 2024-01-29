@@ -16,3 +16,4 @@ jobs:
         with:
           TODOIST_API_KEY: ${{ secrets.TODOIST_API_KEY }}
           PREMIUM: ""
+        continue-on-error: true
