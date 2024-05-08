@@ -21,7 +21,7 @@ jobs:
           committer_token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, repositories, metadata
           plugin_lines: yes
-          repositories_skipped: "NorskNoobing/Obsidian, NorskNoobing/NorskNoobing"
+          repositories_skipped: '["NorskNoobing/Obsidian", "NorskNoobing/NorskNoobing"]'
           config_display: large
           repositories_forks: yes
       #languages - https://github.com/lowlighter/metrics/blob/master/source/plugins/languages/README.md
@@ -48,7 +48,7 @@ jobs:
           committer_token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_notable: yes
-          plugin_notable_skipped: "@Exp-Communicate-Using-Markdown-Cohort-1, @Exp-Intro-to-GitHub-Flow-Cohort-1"
+          repositories_skipped: '["Exp-Communicate-Using-Markdown-Cohort-1/series-communicate-using-markdown-NorskNoobing", "Exp-Intro-to-GitHub-Flow-Cohort-1/series-intro-to-github-flow-NorskNoobing"]'
       #gists - https://github.com/lowlighter/metrics/blob/master/source/plugins/gists/README.md
       - name: gists
         uses: lowlighter/metrics@latest
