@@ -22,8 +22,8 @@ jobs:
           base: header, activity, repositories, metadata
           plugin_lines: yes
           repositories_skipped: |
-           - NorskNoobing/Obsidian
-           - NorskNoobing/NorskNoobing
+            NorskNoobing/Obsidian
+            NorskNoobing/NorskNoobing
           config_display: large
           repositories_forks: yes
       #languages - https://github.com/lowlighter/metrics/blob/master/source/plugins/languages/README.md
@@ -36,7 +36,7 @@ jobs:
           base: ""
           plugin_languages: yes
           repositories_skipped: |
-           - NorskNoobing/Obsidian
+            NorskNoobing/Obsidian
           plugin_languages_colors: ""
           plugin_languages_aliases: ""
           plugin_languages_sections: most-used
@@ -52,8 +52,8 @@ jobs:
           base: ""
           plugin_notable: yes
           repositories_skipped: |
-           - Exp-Communicate-Using-Markdown-Cohort-1/series-communicate-using-markdown-NorskNoobing
-           - Exp-Intro-to-GitHub-Flow-Cohort-1/series-intro-to-github-flow-NorskNoobing
+            Exp-Communicate-Using-Markdown-Cohort-1/series-communicate-using-markdown-NorskNoobing
+            Exp-Intro-to-GitHub-Flow-Cohort-1/series-intro-to-github-flow-NorskNoobing
       #gists - https://github.com/lowlighter/metrics/blob/master/source/plugins/gists/README.md
       - name: gists
         uses: lowlighter/metrics@latest
