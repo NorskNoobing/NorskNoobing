@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=NorskNoobing&style=flat-square">
   <!-- PSGallery-Downloads:START --><a href="https://www.powershellgallery.com/profiles/NorskNoobing">
-    <img src="https://img.shields.io/badge/PSGallery%20Downloads-2,667-blue?style=flat-square&logo=powershell">
+    <img src="https://img.shields.io/badge/PSGallery%20Downloads-2,668-blue?style=flat-square&logo=powershell">
 </a><!-- PSGallery-Downloads:END -->
   <br><br>
   <img width="" src="https://readme-typing-svg.demolab.com?font=Righteous&size=50&color=FFFFFF&center=true&vCenter=true&repeat=false&random=false&width=750&height=100&lines=Hello%F0%9F%91%8B+my+name+is+Daniel."/>
@@ -35,5 +35,6 @@
   <a href="https://gist.github.com/NorskNoobing">
     <img width="50%" src="Images/Dynamic/gists.svg"></a><img width="50%" src="Images/Dynamic/contributions.svg">
 </p>
+
 
 
