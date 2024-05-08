@@ -10,7 +10,15 @@ if (!$BadgeExists) {
     Write-Error "Badge field has to be added to your README before running workflow."
 }
 
-Install-Module "PowerHTML" -Force
+#Install required modules
+$RequiredModulesNameArray = @('PowerHTML')
+$RequiredModulesNameArray.ForEach({
+    if (Get-InstalledModule $_ -ErrorAction SilentlyContinue) {
+        Import-Module $_ -Force
+    } else {
+        Install-Module $_ -Force -Repository PSGallery
+    }
+})
 
 #Scrape PSGallery profile for the "Total Downloads" property
 $PsgalleryProfile = ((Invoke-WebRequest -Uri $PSGalleryLink | ConvertFrom-Html).InnerText -split '\r?\n').Trim()
@@ -37,6 +45,6 @@ switch ($Language) {
 }
 
 #Update badge
-(Get-Content "README.md") -Replace @"
-<!-- PSGallery-Downloads:START -->.*<!-- PSGallery-Downloads:END -->
+(Get-Content "README.md" -Raw) -Replace @"
+(?smi)(<!-- PSGallery-Downloads:START -->)(.*)(<!-- PSGallery-Downloads:END -->)
 "@,"<!-- PSGallery-Downloads:START -->$TemplateStr<!-- PSGallery-Downloads:END -->" | Out-File "README.md"
