@@ -21,6 +21,9 @@ jobs:
           committer_token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, repositories, metadata
           plugin_lines: yes
+          repositories_skipped:
+            - NorskNoobing/Obsidian
+            - NorskNoobing/NorskNoobing
           config_display: large
           repositories_forks: yes
       #languages - https://github.com/lowlighter/metrics/blob/master/source/plugins/languages/README.md
@@ -32,6 +35,8 @@ jobs:
           committer_token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_languages: yes
+          repositories_skipped:
+             - NorskNoobing/Obsidian
           plugin_languages_colors: ""
           plugin_languages_aliases: ""
           plugin_languages_sections: most-used
