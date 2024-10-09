@@ -2,8 +2,8 @@ name: Get-TotalDownloads
 on:
   workflow_dispatch:
   schedule:
-    # Runs every hour
-    - cron: "0 * * * *"
+    # Runs daily at 00:00
+    - cron: "0 0 * * *"
 
 jobs:
     build:
