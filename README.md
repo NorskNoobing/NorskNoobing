@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=NorskNoobing&style=flat-square">
   <a href="https://www.powershellgallery.com/profiles/NorskNoobing">
-    <img src="Images/Dynamic/PSGalleryTotalDownloads.svg">
+    <img src="https://img.shields.io/badge/dynamic/xml?url=https%3A%2F%2Fwww.powershellgallery.com%2Fprofiles%2FNorskNoobing&query=%2F%2F*%5B%40id%3D%22skippedToContent%22%5D%2Fsection%2Fsection%2Faside%2Fdiv%2Fdiv%5B2%5D%2Fh2&style=flat-square&label=PSGallery%20Downloads">
   </a>
   <br><br>
   <img width="" src="https://readme-typing-svg.demolab.com?font=Righteous&size=50&color=FFFFFF&center=true&vCenter=true&repeat=false&random=false&width=750&height=100&lines=Hello%F0%9F%91%8B+my+name+is+Daniel."/>
