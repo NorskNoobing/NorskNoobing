@@ -1,9 +1,9 @@
 # Visit https://github.com/lowlighter/metrics#-documentation for full reference
 name: Generate Metrics
 on:
-  # Schedule updates (at 00:00)
+  # Schedule updates (at 00:00 on Sundays)
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * 0"
   push:
     branches:
       - main
