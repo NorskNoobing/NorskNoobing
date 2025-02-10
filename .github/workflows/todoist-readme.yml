@@ -3,15 +3,15 @@ name: Todoist Readme
 on:
   workflow_dispatch:
   schedule:
-    # Runs daily at 00:00
-    - cron: "0 0 * * *"
+    # Runs daily at 23:50
+    - cron: "50 23 * * *"
 
 jobs:
   update-readme:
     name: Update todoist stats
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - uses: abhisheknaiidu/todoist-readme@master
         with:
           TODOIST_API_KEY: ${{ secrets.TODOIST_API_KEY }}
