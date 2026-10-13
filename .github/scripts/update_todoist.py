@@ -13,7 +13,7 @@ with urlopen(request, timeout=30) as response:
     stats = json.load(response)
 
 lines = [
-    f"🏆  {stats['karma']:,} Karma Points",
+    f"🏆  {stats['karma']:,.0f} Karma Points",
     f"🌸  Completed {stats['days_items'][0]['total_completed']} tasks today",
     f"✅  Completed {stats['completed_count']:,} tasks so far",
     f"⏳  Longest streak is {stats['goals']['max_daily_streak']['count']} days",
