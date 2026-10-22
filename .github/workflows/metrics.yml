@@ -23,6 +23,8 @@ jobs:
           committer_token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, repositories, metadata
           plugin_lines: yes
+          plugin_lines_skipped: |
+            NorskNoobing/docker-jottacloud
           repositories_skipped: |
             NorskNoobing/Obsidian
             NorskNoobing/NorskNoobing
